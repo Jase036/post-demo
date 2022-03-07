@@ -9,8 +9,8 @@ const App = () => {
         <Router>
 
             <div>
-                <h1><Link to="/">Get</Link></h1>
-                <h1><Link to="/post">Post</Link></h1>
+                <h2><Link to="/">Fetch GET</Link></h2>
+                <h2><Link to="/post">Fetch POST</Link></h2>
             </div>
 
             <Routes>

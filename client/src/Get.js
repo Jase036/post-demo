@@ -11,7 +11,7 @@ const Get = () => {
                 console.log(data);
                 setState(data.message)
             })
-    }, [])
+    }, []);
 
     return (
         <>
